@@ -1,0 +1,38 @@
+.latest {
+    background-color: #F2F1ED;
+}
+
+.bgco {
+    background-color: #FDCF71;
+    height: 65px;
+    width: 55px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.bgco:hover {
+    transform: scale(1.02);
+    background-color: black;
+}
+
+.bgco h2 {
+    font-size: 22px;
+}
+
+.playimg img {
+    transition: transform 0.3s ease;
+}
+
+.playimg:hover img {
+    transform: scale(1.02); /* Zoom in effect isolated to hovered card image */
+}
+
+.playimg:hover .bgco {
+    transform: scale(1.02); /* Zoom in effect isolated to hovered card badge */
+    background-color: black;
+}
+
+.card:hover {
+    transform: scale(1.03); /* Slight zoom effect for the entire card on hover */
+    transition: transform 0.3s ease;
+}

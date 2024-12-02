@@ -1,0 +1,14 @@
+/* Style for image hover effect */
+.playimg img {
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.playimg img:hover {
+    transform: translateY(-9%); /* Move up 7% */
+}
+
+/* Align text to the left */
+.playimg + div h3 {
+    text-align: left;
+}
+

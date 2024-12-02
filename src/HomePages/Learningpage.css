@@ -1,0 +1,24 @@
+#learningimg{
+    background-image: url(../../public/homeimg/h1-kids.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.poss{
+    position: absolute;
+    top: 120px;
+    right: 90px;
+    height: 62vh;
+    width: 35%;
+    background-color: #FDCF71;
+}
+.poss h2{
+    text-shadow: 3px 3px 1px black;
+}
+.Learnbutton{
+    padding: 6px 10px 6px 10px;
+    border: 1px solid white;
+    
+  }

@@ -1,0 +1,50 @@
+/* Ensure the entire navbar has the background color */
+.header {
+    background-color: #85CCC5 !important; Use !important to override Bootstrap defaults if necessary
+}
+ .navc{
+    color: white;
+    font-weight: bold;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other elements */
+    background-color: #85CCC5; /* Retain your background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+.body-content {
+    padding-top: 70px; /* Adjust based on the navbar height */
+}
+
+/* Ensure dropdown menu is hidden by default */
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Show dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Optional: Style the dropdown items */
+.dropdown-menu {
+    background-color: #343a40;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    color: white;
+    padding: 8px 16px;
+}
+
+.dropdown-item:hover {
+    /* background-color: #007bff; */
+}
+

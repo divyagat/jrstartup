@@ -1,0 +1,23 @@
+
+  
+  h3 {
+    font-family: "Arial Black", sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .bg-warning {
+    background-color: #f8df81 !important;
+  }
+  
+  .bg-danger {
+    background-color: #f9b9b8 !important;
+  }
+  
+  .bg-info {
+    background-color: #b8e8f9 !important;
+  }
+  
